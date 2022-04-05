@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    tools:context=".ResultActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:padding="10dp">
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/answer"
+        android:paddingBottom="20sp"
+        android:layout_gravity="center"
+        android:textSize="24sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info"
+        android:paddingBottom="20sp"
+        android:layout_gravity="center"
+        android:textSize="24sp">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/passes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have passed: "
+        android:layout_gravity = "center"
+        android:paddingBottom="10dp"
+        android:textSize="20sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/fails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have failed: "
+        android:layout_gravity = "center"
+        android:paddingBottom="60dp"
+        android:textSize="20sp">
+    </TextView>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:text="@string/sendScore">
+    </Button>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:text="Back">
+    </Button>
+
+</LinearLayout>

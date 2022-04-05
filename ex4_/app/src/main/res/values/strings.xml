@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ex4_</string>
+    <string name="q1">What movies did Jennifer Lawrence star in?</string>
+    <string name="q2">What is the color of cloud?</string>
+    <string name="selected">submit</string>
+    <string name="q3">What is the actor name initial of the heroine of The Hunger Games?</string>
+    <string name="display"></string>
+    <string name="answer">Score: </string>
+    <string name="submit">Submit</string>
+    <string name="info">You have ...</string>
+    <string name="sendScore">Share Score</string>
+    <string name="chooser">Share Score ...</string>
+    <string name="hint">Type your answer here</string>
+    <string name="start">Start</string>
+
+    <string name="button_response">Timing! Your failed</string>
+    <string name="title">Timing!</string>
+
+    <string-array name="Options">
+        <item>Please Select</item>
+        <item>DARK PHOENIX</item>
+        <item>NO TIME TO DIE</item>
+        <item>NARUTO</item>
+        <item>TOM AND JERRY</item>
+    </string-array>
+
+    <string-array name="Options2">
+        <item>Please Select</item>
+        <item>PINK</item>
+        <item>WHITE</item>
+        <item>GOLD</item>
+        <item>BLACK</item>
+    </string-array>
+</resources>

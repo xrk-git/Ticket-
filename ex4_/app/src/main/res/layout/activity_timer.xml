@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    tools:context=".TimerActivity">
+
+    <TextView
+        android:id="@+id/localTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="20sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/globalTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="20sp"
+        android:layout_marginBottom="100dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/mcTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="number"
+        android:maxLength="4"
+        android:hint="Quiz1 Time Limit" />
+
+    <EditText
+        android:id="@+id/blankTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="number"
+        android:maxLength="4"
+        android:hint="Quiz2 Time Limit" />
+
+    <Switch
+        android:id="@+id/mcSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="56dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Enable timer for Quiz1: "
+        android:checked="true" />
+
+    <Switch
+        android:id="@+id/blankSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="56dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Enable timer for Quiz2: "
+        android:checked="true" />
+
+    <Switch
+        android:id="@+id/toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="56dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="Toggle Button Style: "
+        android:checked="true" />
+
+    <FrameLayout
+        android:id="@android:id/tabcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/startDefaultButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="onClickStart"
+            android:text="@string/start" />
+
+        <ImageButton
+            android:id="@+id/startImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="onClickStart"
+            android:visibility="invisible"
+            android:src="@drawable/ic_launcher_background" />
+
+    </FrameLayout>
+
+</LinearLayout>

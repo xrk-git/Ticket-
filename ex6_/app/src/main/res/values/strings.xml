@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ex6_</string>
+
+    <string name="add_button">Add</string>
+    <string name="remove_button">Remove</string>
+    <string name="confirm_button">Confirm</string>
+    <string name="delete_button">Delete</string>
+    <string name="edit_button">Edit</string>
+    <string name="hint">Search...</string>
+    <string-array name="sort_by">
+        <item>Enter_Time_Order</item>
+        <item>Alphabetical_Order</item>
+    </string-array>
+    <string-array name="Options">
+        <item>To do</item>
+        <item>In progress</item>
+        <item>Completed</item>
+    </string-array>
+</resources>
